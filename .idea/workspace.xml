@@ -5,19 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d38c459-33e7-425e-aca3-c43c4b7cb01a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/products/create.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/products/show.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/products/test.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/BlogController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tax/Calculator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blog/create.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blog/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blog/post.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundles/TwigBundle/Exception/error404.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/SymfonyLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SymfonyLearning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MainController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/includes/_header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/_header.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/products/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/products/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,6 +202,8 @@
       <path value="$PROJECT_DIR$/vendor/league/uri-interfaces" />
       <path value="$PROJECT_DIR$/vendor/league/uri-parser" />
       <path value="$PROJECT_DIR$/vendor/league/uri" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -252,7 +263,9 @@
       <workItem from="1717482404254" duration="312000" />
       <workItem from="1717482797899" duration="848000" />
       <workItem from="1717484133669" duration="13959000" />
-      <workItem from="1717504786179" duration="994000" />
+      <workItem from="1717504786179" duration="6064000" />
+      <workItem from="1717660616738" duration="189000" />
+      <workItem from="1717660838884" duration="9853000" />
     </task>
     <servers />
   </component>

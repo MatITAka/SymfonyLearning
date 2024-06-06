@@ -62,6 +62,8 @@ class ProductController extends AbstractController
             $manager ->persist($product);
             $manager ->flush();
 
+            $this ->addFlash('success', 'Product created successfully!' . ' ' . $product ->getName());
+
             return $this ->redirectToRoute('app_product');
         }
 

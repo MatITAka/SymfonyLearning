@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use App\Tax\Calculator;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 
@@ -13,8 +14,9 @@ class MainController extends AbstractController
         methods: ['GET'],
         priority: 1
     )]
-    public function index()
+    public function index(): \Symfony\Component\HttpFoundation\Response
     {
+
        return $this ->render('home.html.twig');
 
     }
@@ -24,7 +26,7 @@ class MainController extends AbstractController
         methods: ['GET'],
         priority: 2
     )]
-    public function contact()
+    public function contact(): \Symfony\Component\HttpFoundation\Response
     {
        return $this ->render('contact.html.twig');
 
@@ -35,11 +37,13 @@ class MainController extends AbstractController
         methods: ['GET'],
         priority: 3
     )]
-    public function about()
+    public function about(): \Symfony\Component\HttpFoundation\Response
     {
        return $this ->render('about.html.twig');
 
     }
+
+
 }
 
 

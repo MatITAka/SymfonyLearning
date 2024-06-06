@@ -21,4 +21,12 @@ class SecurityController extends AbstractController
             'last_username' => $lastUsername,
             ]);
     }
+
+    #[Route('/logout', name: 'logout')]
+    public function logout()
+
+    {
+        throw new \Exception('This should never be reached!');
+    }
+
 }

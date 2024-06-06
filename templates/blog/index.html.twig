@@ -1,0 +1,22 @@
+{%  extends 'base.html.twig' %}
+
+{% block title %}Blog{% endblock %}
+
+{% block container %}
+    <h1>Blog</h1>
+
+    <p><a href="{{ path('app_post_create') }}">Create a new post</a></p>
+
+    <ul>
+        {% for post in posts %}
+           <div>
+
+            <h2>{{ post.name }}</h2>
+            <p>{{ post.createdAt|date('d/m/Y') }}</p>
+            <p>{{ post.content }}</p>
+            <p><a href="{{ path('app_post_detail', {slug: post.slug}) }}">Read more...</a></p>
+           </div>
+        {% endfor %}
+    </ul>
+{% endblock %}
+

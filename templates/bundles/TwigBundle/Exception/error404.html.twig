@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block container %}
+
+    <h1 class="text-center mb-5">Erreur 404</h1>
+
+    <p class="text-center">La page que vous cherchez n'existe pas.</p>
+
+    <p class="text-center">
+        <a href="{{ path('app_main') }}" class="btn btn-primary">Retour à la page d'accueil</a>
+    </p>
+
+{% endblock %}

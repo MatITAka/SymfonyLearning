@@ -9,6 +9,12 @@
 
     <a href="{{ path('app_product_create') }}" class="btn btn-primary mb-3">Créer un produit</a>
 
+  {% for successMessage in app.flashes('success') %}
+
+    <div class="alert alert-success" role="alert">
+        {{ successMessage }}
+    </div>
+  {% endfor %}
 
     <div class="row mt-2">
 
