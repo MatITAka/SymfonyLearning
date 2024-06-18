@@ -6,6 +6,9 @@
     <h1>{{ post.name }}</h1>
     <p>{{ post.createdAt|date('d/m/Y') }}</p>
     <p>{{ post.content }}</p>
+    <a href="{{ path('app_post_edit', {'slug': post.slug}) }}">Modify</a>
+    <a href="{{ path('app_post_delete', {'slug': post.slug}) }}">Delete</a>
+
     <p><a href="{{ path('app_blog') }}">Back to the list</a></p>
 {% endblock %}
 

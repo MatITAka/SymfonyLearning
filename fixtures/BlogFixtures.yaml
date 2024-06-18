@@ -1,0 +1,13 @@
+App\Entity\Posts:
+    blog_{1..10}:
+       name: <name()>
+       content: <text()>
+       description: <text()>
+       createdAt: <dateTimeBetween('-1 years', 'now')>
+       updatedAt: <dateTimeBetween('-1 years', 'now')>
+       slug : <slug()>
+       published : <boolean()>
+
+
+
+

@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Modify post{% endblock %}
+
+{% block container %}
+    <h1>Modify post</h1>
+
+        {{ form_start(form) }}
+            {{ form_row(form.name) }}
+            {{ form_row(form.content) }}
+            {{ form_row(form.description) }}
+            {{ form_row(form.slug) }}
+            {{ form_row(form.published) }}
+            <button type="submit" class="btn btn-primary">Modify</button>
+        {{ form_end(form) }}
+
+    <a href="{{ path('app_blog') }}">Back to the list</a>
+
+{% endblock %}
